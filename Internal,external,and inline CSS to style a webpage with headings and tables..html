@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CSS Styling Example</title>
+
+<style>
+
+body{
+font-family: sans-serif;
+background-color:#f4f4f4;
+color:#333;
+margin:20px;
+}
+
+h1{
+color:navy;
+border-bottom:2px solid navy;
+padding-bottom:10px;
+}
+
+table{
+width:50%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+text-align:left;
+}
+
+th{
+background-color:navy;
+color:white;
+}
+
+</style>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<h1 style="color:maroon; border-bottom-color:rgb(51,151,20);">
+Heading with Inline CSS
+</h1>
+
+<p>This is a paragraph styled by internal CSS.</p>
+
+<h2>Table Styled by Internal and External CSS</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Prashant</td>
+<td>CS</td>
+</tr>
+
+<tr class="external-style">
+<td>Yash</td>
+<td>IT</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</body>
+</html>
