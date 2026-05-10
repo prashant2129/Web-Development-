@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical 06</title>
+</head>
+<body>
+
+<h1>User Registration Form</h1>
+
+<form onsubmit="return validateform()">
+
+<label>Name:</label>
+<input type="text" id="name" placeholder="Enter Full Name"><br><br>
+
+<label>Email:</label>
+<input type="text" id="email" placeholder="xyz@gmail.com"><br><br>
+
+<label>Password:</label>
+<input type="password" id="password" placeholder="Enter Password"><br><br>
+
+<label>Confirm Password:</label>
+<input type="password" id="cpassword" placeholder="Confirm Password"><br><br>
+
+<label>Date Of Birth:</label>
+<input type="date"><br><br>
+
+<label>Time of Birth:</label>
+<input type="time"><br><br>
+
+<label>Age:</label>
+<input type="number" min="18" max="65"><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Other<br><br>
+
+<label>Select Skills:</label>
+<input type="checkbox">Front-End
+<input type="checkbox">Back-End
+<input type="checkbox">UI/UX
+<input type="checkbox">DSA<br><br>
+
+<label>Upload Resume:</label>
+<input type="file"><br><br>
+
+<input type="reset">
+<input type="submit" value="Submit">
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
